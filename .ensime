@@ -1,0 +1,24 @@
+(
+ :root-dir "/home/cody/programming/scala/traits-tutorial"
+ :cache-dir "/home/cody/programming/scala/traits-tutorial/.ensime_cache"
+ :name "traits-tutorial"
+ :java-home "/usr/lib/jvm/java-8-openjdk-amd64"
+ :java-flags ("-Xms1024m" "-Xmx1024m" "-XX:ReservedCodeCacheSize=128m")
+ :reference-source-roots ("/usr/lib/jvm/java-8-openjdk-amd64/src.zip")
+ :scala-version "2.11.0"
+ :compiler-args nil
+ 
+ :subprojects ((
+   :name "traits-tutorial"
+   :module-name "traits-tutorial"
+   :source-roots ("/home/cody/programming/scala/traits-tutorial/src/main/scala" "/home/cody/programming/scala/traits-tutorial/src/main/java" "/home/cody/programming/scala/traits-tutorial/src/test/scala" "/home/cody/programming/scala/traits-tutorial/src/test/java")
+   :target "/home/cody/programming/scala/traits-tutorial/target/scala-2.11/classes"
+   :test-targets ("/home/cody/programming/scala/traits-tutorial/target/scala-2.11/test-classes")
+   :depends-on-modules nil
+   :compile-deps ("/home/cody/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.0.jar")
+   :runtime-deps nil
+   :test-deps nil
+   :doc-jars ("/home/cody/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.0-javadoc.jar" "/home/cody/programming/scala/traits-tutorial/target/scala-2.11/traits-tutorial_2.11-0.1-javadoc.jar")
+   :reference-source-roots ("/home/cody/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar")))
+ 
+)
